@@ -56,13 +56,13 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp F1  &kp F2    &kp F3     &kp F4        &kp F5     &kp F6                               &kp F7                 &kp F8     &kp F9    &kp F10    &kp F11   &kp F12   &kp BSPC
-&kp GRAVE  &kp N1  &kp N2    &kp N3     &kp N4        &kp N5     &kp LBKT                             &kp RBKT               &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q   &kp W     &kp E      &kp R         &kp T      &kp BSLH                             &kp LG(LS(PAGE_DOWN))  &kp Y      &kp U     &kp I      &kp O     &kp P     &kp RBKT
-&kp LSHFT  &kp A   &kp S     &kp D      &kp F         &kp G      &kp HOME                             &kp PAGE_UP            &kp H      &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z   &kp X     &kp C      &kp V         &kp B      &kp END    &kp C_MUTE    &kp C_PLAY  &kp PAGE_DOWN          &kp N      &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                   &kp LEFT  &kp RIGHT                                                                                                            &kp UP     &kp DOWN
-                                        &kp LEFT_WIN  &kp ENTER  &mkp LCLK                            &kp BACKSPACE          &kp SPACE  &kp RGUI
+&kp ESC    &kp F1  &kp F2    &kp F3     &kp F4        &kp F5     &kp F6                               &kp F7                 &kp F8     &kp F9     &kp F10    &kp F11   &kp F12   &kp DEL
+&kp GRAVE  &kp N1  &kp N2    &kp N3     &kp N4        &kp N5     &kp LBKT                             &kp RBKT               &kp N6     &kp N7     &kp N8     &kp N9    &kp N0    &kp MINUS
+&kp TAB    &kp Q   &kp W     &kp E      &kp R         &kp T      &kp BSLH                             &kp LG(LS(PAGE_DOWN))  &kp Y      &kp U      &kp I      &kp O     &kp P     &kp RBKT
+&kp LSHFT  &kp A   &kp S     &kp D      &kp F         &kp G      &kp HOME                             &kp PAGE_UP            &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z   &kp X     &kp C      &kp V         &kp B      &kp END    &kp C_MUTE    &kp C_PLAY  &kp PAGE_DOWN          &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+                   &kp LEFT  &kp RIGHT                                                                                                             &kp UP     &kp DOWN
+                                        &kp LEFT_WIN  &kp ENTER  &mkp LCLK                            &kp BACKSPACE          &kp SPACE  &kp SPACE
                                                       &mo 1      &mkp RCLK                            &mo 2                  &mo 3
             >;
 
@@ -73,14 +73,14 @@
 
         layer_1 {
             bindings = <
-&bt BT_CLR       &bt BT_NXT  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_BRI  &trans      &trans           &trans           &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&rgb_ug RGB_BRD  &trans      &trans           &trans           &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans      &trans           &trans           &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans           &trans      &trans           &trans           &trans  &trans  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans           &trans                                                                                  &trans  &trans
-                                                               &trans  &trans  &trans                         &trans  &trans  &trans
-                                                                       &trans  &trans                         &trans  &trans
+&bt BT_CLR       &bt BT_NXT  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                    &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_BRI  &trans      &trans           &rgb_ug RGB_COLOR_HSB(269,100,35)  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&rgb_ug RGB_BRD  &trans      &trans           &trans                             &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans      &trans           &trans                             &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans           &trans      &trans           &trans                             &trans  &trans  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                             &trans           &trans                                                                                                    &trans  &trans
+                                                                                 &trans  &trans  &trans                         &trans  &trans  &trans
+                                                                                         &trans  &trans                         &trans  &trans
             >;
 
             sensor-bindings =
