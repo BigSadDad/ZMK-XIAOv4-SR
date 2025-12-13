@@ -27,6 +27,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        layer0 {
+            bindings = <&to 0>;
+            key-positions = <82 14>;
+        };
+
+        layer1 {
+            bindings = <&to 1>;
+            key-positions = <82 15>;
+        };
+
+        layer2 {
+            bindings = <&to 2>;
+            key-positions = <82 16>;
+        };
+
+        layer3 {
+            bindings = <&to 3>;
+            key-positions = <82 17>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
