@@ -62,7 +62,7 @@
 &kp LSHFT  &kp A   &kp S     &kp D      &kp F         &kp G      &kp HOME                             &kp PAGE_UP            &kp H      &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z   &kp X     &kp C      &kp V         &kp B      &kp END    &kp C_MUTE    &kp C_PLAY  &kp PAGE_DOWN          &kp N      &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
                    &kp LEFT  &kp RIGHT                                                                                                             &kp UP     &kp DOWN
-                                        &kp LEFT_WIN  &kp ENTER  &mkp LCLK                            &kp BACKSPACE          &kp SPACE  &kp SPACE
+                                        &kp LEFT_WIN  &kp SPACE  &mkp LCLK                            &kp BACKSPACE          &kp ENTER  &kp SPACE
                                                       &mo 1      &mkp RCLK                            &mo 2                  &mo 3
             >;
 
